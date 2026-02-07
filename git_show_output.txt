@@ -1,0 +1,18 @@
+commit d49aa449e9237c8a421b491e88f7982a36b8e338
+Author: artashes-stepanian <artashes.stepanyan.1996@gmail.com>
+Date:   Sat Feb 7 15:07:20 2026 +0300
+
+    Revert "Add script fils to scripts directory"
+    
+    This reverts commit d7438cefa261b7f6b74dbc1c06d5d774a7a7c47e.
+
+diff --git a/scripts/empty_file.txt b/scripts/empty_file.txt
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/scripts/script.sh b/scripts/script.sh
+deleted file mode 100755
+index 1f91126..0000000
+--- a/scripts/script.sh
++++ /dev/null
+@@ -1 +0,0 @@
+-echo 'Hello World'
